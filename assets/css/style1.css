@@ -1,0 +1,80 @@
+body {
+
+    background: url(../img/bg5.jpg) top center no-repeat;
+    background-size: cover;
+
+}
+#header .img1 img{
+  position: absolute;
+  width: 41%;
+  left: 1%;
+  height: 25%;
+  top: 0%;
+}
+#header .img2 img{
+  position: absolute;
+
+  right: 3%;
+  height: 20%;
+  top: 2%;
+}
+#header h1 {
+    margin-top: 22%;
+    font-size: 500%;
+    background: linear-gradient(to right, #FF9933, #fff, #138808);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#header h1 span{
+  color: #FF9933;
+}
+#header h2 {
+    color: #138808;
+}
+#header h3 {
+    font-weight: 700;
+    font-size: 300%;
+    margin-top: 4%;
+}
+#header {
+    padding: 1% 0 2% 0;
+}
+#header .subscribe h4 {
+    font-size: 23px;
+    font-weight: 900;
+    color: #fff;
+    position: relative;
+    padding-bottom: 0;
+    margin-bottom: 0rem;
+}
+.subscribe i{
+  font-size: 200%;
+  /* color: #BC6FF1; */
+}
+a {
+    /* color: #BC6FF1; */
+}
+a:hover{
+  /* color: #BC6FF1; */
+}
+#header .social-links a:hover{
+  color: #FF0000;
+}
+@media screen and (max-width:550px){
+  #header .img1 img {
+    width: 65%;
+    height: 18%;
+}
+  #header .img2 img {
+      height: 13%;
+  }
+  #header h1 {
+    text-align: center;
+    margin-top: 52%;
+    font-size: 300%;
+  }
+  #header h3 {
+    font-size: 200%;
+  }
+
+}
