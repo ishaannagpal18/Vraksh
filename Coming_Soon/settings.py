@@ -31,7 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','vraksh.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','vraksh.herokuapp.com','indicanfc.com','www.indicanfc.com']
 
 
 # Application definition
