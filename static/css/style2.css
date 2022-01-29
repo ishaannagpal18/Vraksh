@@ -25,6 +25,7 @@ body {
     background: linear-gradient(to right, #FF9933, #FF9933, #fff, #138808, #138808);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    font-family: 'Merriweather', serif;
 }
 #header h1 span{
   color: #FF9933;
@@ -36,6 +37,7 @@ body {
     font-weight: 700;
     font-size: 180%;
     margin-top: 1%;
+    font-family: 'Supermercado One', cursive;
 }
 #header {
     padding: 1% 0 10% 0;
@@ -94,23 +96,37 @@ margin-bottom: 5%;
   #header h3 {
     font-size: 140%;
   }
+  #header .countdown div h3 {
+font-size: 35px;
+margin-bottom: 15px;
+}
+
 
 }
 @media screen and (max-width:550px){
   #header .img1 img {
-    width: 65%;
+    width: 55%;
 
 }
   #header .img2 img {
-      height: 13%;
+      height: 10%;
   }
   #header h1 {
     text-align: center;
-    margin-top: 28%;
+    margin-top: 33%;
     font-size: 300%;
   }
   #header h3 {
     font-size: 120%;
   }
-
+  #header .countdown {
+margin-bottom: 16%;
+margin-top: 7%;
+}
+#header .countdown div{
+  width: 5.2em;
+}
+#header .countdown h3{
+padding-top: 8%;
+}
 }
