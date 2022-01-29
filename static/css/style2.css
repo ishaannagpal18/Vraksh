@@ -6,16 +6,16 @@ body {
 }
 #header .img1 img{
   position: absolute;
-  width: 28%;
-  left: 1%;
 
-  top: 0%;
+  left: 3%;
+height: 15%;
+  top: 2%;
 }
 #header .img2 img{
   position: absolute;
 
   right: 3%;
-  height: 14%;
+  width: 28%;
   top: 2%;
 }
 #header h1 {
@@ -105,11 +105,12 @@ margin-bottom: 15px;
 }
 @media screen and (max-width:550px){
   #header .img1 img {
-    width: 55%;
+    height: 10%;
 
 }
   #header .img2 img {
-      height: 10%;
+
+      width: 55%;
   }
   #header h1 {
     text-align: center;
